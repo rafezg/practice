@@ -3,7 +3,7 @@ function validate_form()
 {
 	if(hasblanks())
 	{
-		alert('one or more compulsory fields are blank');
+		alert('one or more compulsory fields are blank/gitpractice');
 		return false;
 	}
 	var given_data = document.getElementById("given");
